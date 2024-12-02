@@ -1,0 +1,312 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela+Round&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+}
+
+body {
+  /* background: #f5fbfa; */
+  font-family: 'Varela Round', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  /* padding-top: 60px;   */
+  height: 100%;
+  padding: 0;
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+body.light {
+  background: #f5fbfa; /* Tema claro */
+}
+
+body.dark {
+  background: #333; /* Tema oscuro */
+  /* color: #fff; Cambia el texto para que sea legible */
+}
+body.dark .navbar-nav a{
+  color: #fff;
+}
+#root-container {
+  display: flex;
+  flex-direction: column; /* Header, main y footer en columna */
+  min-height: 100vh; /* Asegura que el contenedor ocupe toda la ventana */
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ocupará todo el ancho */
+  padding: 0 20px;
+  justify-content: space-between;
+  /* background-color: #29e8c8; */
+  z-index: 100;
+  display: flex;
+}
+
+.hamburger-menu {
+  display: none;
+  /* background: #000; */
+  height: 4px;
+  margin: 4px 0;
+  width: 25px;
+}
+.hamburger-menu span {
+  background: #333;
+  border-radius: 3px;
+  height: 4px;
+  margin: 3px 0;
+  width: 25px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Alinea los enlaces a la derecha */
+  align-items: center; 
+  /* gap: 20px; */
+  flex-wrap: wrap;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+  /* white-space: nowrap; */
+}
+.navbar-nav.show {
+  display: flex;
+}
+
+.navbar-nav li {
+  margin: 0; /* Espaciado entre los enlaces */
+}
+
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s;
+}
+.navbar-nav a:hover {
+  color: #007bff;
+}
+/* Ajusta el tamaño de las imágenes en pantallas pequeñas */
+.navbar-nav img {
+  width: 30px; /* Tamaño inicial */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.navbar-nav img:hover {
+  transform: scale(1.2); /* Agranda ligeramente en hover */
+}
+
+
+.btn-left {
+  background-color: #007bff; /* Color del botón */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-left:hover {
+  background-color: #0056b3; /* Color cuando pasa el cursor */
+}
+
+
+.console-container {
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family:'Varela Round', sans-serif;
+  font-size:32px;
+  font-weight: 800;
+  text-align: center;
+  /* height:auto; */
+  width:90%;
+  position:relative;
+  color:rgba(255, 255, 255, 0.897);
+  top:20%;
+  /* bottom:0; */
+  left:50%;
+  transform: translate(-50%, -20% );
+  /* background-color: green; */
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.console-underscore {
+  display: inline-block; 
+  position: relative; 
+  top: 0; 
+  left: 20px; 
+  font-size: inherit;
+  line-height: 1; 
+  vertical-align: middle;
+  color:  rgba(131, 65, 229, 0.633) ;
+}
+
+#text {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  background: linear-gradient(90deg, rgb(26, 0, 128), rgb(148, 244, 245), rgba(131, 65, 229, 0.633));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 20px;
+}
+
+.profile-picture img {
+  display: block; /* Asegura que no se superponga al header */
+  margin: 100px auto 20px; /* Ajusta el margen superior para evitar que se solape con el header */
+  width: 150px; /* Ajusta el tamaño de la imagen */
+  height: 150px;
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  border: 5px solid #007bff; /* Añade un borde decorativo */
+}
+.icon-list {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos salten a una nueva línea si es necesario */
+  justify-content: center; /* Centra horizontalmente los iconos */
+  gap: 10px; /* Espaciado entre los iconos */
+  list-style: none; /* Elimina los estilos de lista */
+  padding: 0;
+  margin: 0;
+}
+
+.icon-list img {
+  width: 40px; /* Tamaño ajustable del icono */
+  height: auto;
+  transition: transform 0.3s ease; /* Efecto al pasar el cursor */
+}
+/* Media Queries para adaptabilidad */
+/*
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .navbar-nav li {
+    margin: 10px 0; /* Más espacio entre los elementos 
+  }
+
+  .btn-left {
+    margin-bottom: 10px;
+  }
+
+  #text {
+    font-size: 36px;
+  }
+
+  .console-container {
+    font-size: 24px;
+  }
+}     */
+   
+@media (max-width: 616px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between; 
+    
+  }
+
+  .profile-img {
+    margin-bottom: 20px;
+  }
+
+  #text {
+    font-size: 32px; 
+  }
+} 
+
+
+@media (max-width: 576px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  header {
+    align-items: center;
+  }
+
+  .btn-left {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+  }
+
+  #text {
+    font-size: 28px;
+  }
+}
+@media (max-width: 570px) {
+  .navbar-nav {
+    display: none;
+    flex-direction: column;
+    background: #29e8c8;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  /* centra hambur en el contenedor*/
+    justify-content: center; /* para líneas de habmur*/
+    cursor: pointer;
+    /*gap: 2px;*/  
+    width: 30px; /* Define un ancho adecuado para el contenedor */
+    height: 30px; /* Define un alto adecuado para el contenedor */
+    margin-right: 40px; /* Empuja la hamburguesa hacia la derecha */
+  }
+  /*
+  .hamburger-menu div {
+    width: 20px; 
+    height: 3px; 
+    background-color: black; 
+    border-radius: 2px; /
+  }
+  */
+  .contact-btn {
+    margin-left: 200px; /* Botón "Contact Me" alineado a la izquierda */
+    display: flex; /* Asegura que el botón se renderice correctamente */
+    align-items: center; /* Alinea el texto dentro del botón */
+  }
+
+  .navbar-nav.show {
+    display: flex;
+  }
+}
+@media (max-width: 360px) {
+  .icon-list {
+    flex-direction: column; /* Coloca los elementos en una columna */
+    align-items: center; /* Centra los iconos en la columna */
+  }
+
+  .icon-list img {
+    width: 30px; /* Reduce el tamaño de los iconos en pantallas pequeñas */
+  }
+}
+
+
+

@@ -1,0 +1,143 @@
+.about-container {
+    display: flex;
+    flex-direction: column; /* Apila los contenedores verticalmente */
+    align-items: center;
+    gap: 0; /* Espaciado entre las secciones */
+    max-width: 100%; /* Ocupa todo el ancho */
+    padding: 0; 
+    margin-top: 5vh;
+    margin-left: 2vh;
+  }
+  
+  .header,
+  .medium,
+  .lower {
+    display: flex;
+    flex-direction: row; /* Alinea los elementos dentro de cada sección horizontalmente */
+    align-items: center;
+    justify-content: space-between; /* Espacia uniformemente */
+    width: 100%; /* Asegura que cada fila ocupe todo el ancho */
+    max-width: none; /* Controla el ancho máximo */
+    padding: 0 20px;
+    margin: 0 auto;
+    gap: 20px; /* Espaciado entre elementos internos */
+  }
+  .header {
+    padding: 20px;
+  }
+  .profile-picture {
+    display: flex;
+    flex: 0 0 20%; /* No permite que se redimensione */
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: aqua; */
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #088A29;
+  }
+  
+  .about-text {
+    flex: 0 0 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 40px;
+    gap: 10px;
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+    /* background-color: blue; */
+
+  }
+  
+  .lead-with-icons {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px; 
+    margin-top: -10px; 
+    /* background-color: red;  */
+  }
+  
+  .lead-text {
+    font-size: 1.5rem;
+    color: #088A29;
+    text-align: center;
+  }
+  .icons-container {
+    display: flex; /* Alinea los íconos horizontalmente */
+    gap: 15px; /* Espaciado entre íconos */
+  }
+  
+  .icon {
+    width: 32px; /* Tamaño del ícono */
+    height: 32px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer; /* Cambia el cursor al pasar por los íconos */
+  }
+  
+  .icon:hover {
+    transform: scale(1.2); /* Agranda el ícono al pasar el cursor */
+  }
+  
+  
+  .about-section {
+    text-align: left;
+    width: 75%;
+  }
+  .lower {
+    display: flex;
+    justify-content: flex-end; /* Alinea todo el contenido al final (derecha) */
+    align-items: center; /* Alinea verticalmente al centro */
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
+  }
+
+  .what-can-i-do {
+    display: flex; /* Flexbox para alinear el título y la lista */
+    flex-direction: column;
+    align-items: flex-end; /* Centra verticalmente */
+    gap: 10px; /* Espaciado entre el título y la lista */
+    flex: 1; /* Permite que el contenido se ajuste al ancho disponible */
+    margin-right: 5vh;
+  }
+
+  .title {
+    font-size: 24px; /* Tamaño del texto */
+    text-align: right; /* Asegura que el texto dentro del título esté alineado a la derecha */
+  }
+    
+  .skills-list {
+    list-style: none;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: clamp(18px, 3vw, 24px);
+  }
+  
+  .skills-list img {
+    width: 4em;
+    height: auto;
+    margin-right: 0.5em;
+  }
+  
