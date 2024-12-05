@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import '../../styles.css';
+
 
 const DynamicText = ({ words }) => {
   const [displayedText, setDisplayedText] = useState('');

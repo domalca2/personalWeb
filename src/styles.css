@@ -126,7 +126,7 @@ header{
   justify-content: center;
   gap: 10px;
   font-family:'Varela Round', sans-serif;
-  font-size:32px;
+  font-size:48px;
   font-weight: 800;
   text-align: center;
   /* height:auto; */
@@ -138,9 +138,10 @@ header{
   left:50%;
   transform: translate(-50%, -20% );
   /* background-color: green; */
-  line-height: 1.5;
+  line-height:48px;
   margin-top: 20px;
 }
+
 
 .console-underscore {
   display: inline-block; 
@@ -188,39 +189,29 @@ header{
   height: auto;
   transition: transform 0.3s ease; /* Efecto al pasar el cursor */
 }
-/* Media Queries para adaptabilidad */
-/*
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 15px;
-  }
 
-  .navbar-nav {
-    flex-direction: column;
-    width: 100%;
-    align-items: flex-start;
-  }
 
-  .navbar-nav li {
-    margin: 10px 0; /* Más espacio entre los elementos 
-  }
-
-  .btn-left {
-    margin-bottom: 10px;
-  }
-
-  #text {
+@media (max-width: 1300px) and (min-width: 1021px) {
+  .console-container #text {
     font-size: 36px;
+    line-height: 40px;
   }
+}
+@media (max-width: 1020px) and (min-width: 757px) {
+  .console-container #text {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
 
-  .console-container {
+@media (max-width: 756px) {
+  .console-container #text {
     font-size: 24px;
+    line-height: 32px;
   }
-}     */
-   
-@media (max-width: 616px) {
+}
+
+/* @media (max-width: 616px) {
   .container {
     flex-direction: row;
     justify-content: space-between; 
@@ -234,10 +225,10 @@ header{
   #text {
     font-size: 32px; 
   }
-} 
+}  */
 
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .navbar {
     justify-content: center;
   }
@@ -255,8 +246,8 @@ header{
   #text {
     font-size: 28px;
   }
-}
-@media (max-width: 570px) {
+} */
+@media (max-width: 657px) {
   .navbar-nav {
     display: none;
     flex-direction: column;

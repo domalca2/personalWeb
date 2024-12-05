@@ -12,8 +12,10 @@ import javaLogo from '../../images/java.png';
 import jsLogo from '../../images/javascript.png';
 import phpLogo from '../../images/php.png';
 import reactLogo from '../../images/reactjs.png';
+import laraLogo from '../../images/laravel.png';
 import reactNatLogo from '../../images/reactNative.png';
 import devopsLogo from '../../images/devops_cert.png';
+import terraLogo from '../../images/Terraform.png';
 
 const About = () => {
   return (
@@ -44,12 +46,38 @@ const About = () => {
       <div className={styles['medium']}>
         <div className={styles["about-section"]}>
           <h2>ABOUT ME</h2>
+          
           <p>
-          I build web apps and web pages to hone my Web Development skills. 
-    Since earning my Bachelor's degree, I've delved deeper into this field and haven't looked back. 
-    The more I learn, the more I realize the vastness of web development and how much more there is to discover.
+            From the very moment I discovered the world of web development, I knew this was my calling.
+            What attracts me most about this profession is the ability to transform ideas into reality,
+            create useful tools, and solve problems through technology.
           </p>
+          
+
+            <p>
+              I chose this path because I am fascinated by how web development combines creativity and logic,
+              allowing me to design innovative solutions that make a tangible impact. Every line of code I write is
+              an engaging challenge that drives me to keep learning and growing as a professional.
+            </p>
+
+            <p>
+              My passion for this field goes beyond the final results. I enjoy every part of the process, from
+              planning to implementation, because I see each step as an opportunity to improve and push my own limits.
+            </p>
+
+            <p>
+              Web development is not just a job for me; it’s a form of expression, a space where my curiosity and
+              constant desire to learn find their perfect match.
+            </p>
+                      
+            <div className={styles['resume']}>
+              <a href="/cv/my-resume.pdf" target="_blank" rel="noopener noreferrer" className={styles["btn-cv"]}>
+              View Resume
+            </a>
+            </div>
+
         </div>
+
       </div>
 
       
@@ -64,9 +92,11 @@ const About = () => {
               <li><img src={javaLogo} alt="JAVA" />Java</li>
               <li><img src={jsLogo} alt="JAVASCRIPT" />JavaScript</li>
               <li><img src={phpLogo} alt="PHP" />PHP</li>
+              <li><img src={laraLogo} alt="LARAVEL" />Laravel</li>
               <li><img src={reactLogo} alt="REACTJS" />react.js</li>
               <li><img src={reactNatLogo} alt="REACT-NATIVE" />react-native</li>
-              <li><img src={devopsLogo} alt="GDEVOPSCERT" />google devops cert</li>
+              <li><img src={devopsLogo} alt="GDEVOPSCERT" />Google DevOps cert.</li>
+              <li><img src={terraLogo} alt="TERRAFORM" />Terraform</li>
             </ul>
           </div>
         </div>
