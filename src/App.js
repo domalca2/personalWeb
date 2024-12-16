@@ -23,7 +23,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
-      <Router>
+      <Router basename="/personalWeb">
         <div id='root-container'>
           <Header />
           <Routes>

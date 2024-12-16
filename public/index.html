@@ -26,6 +26,16 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Domingo Alonso Dev</title>
+    <script>
+      const redirect = location => {
+        location.replace(location.origin + '/personalWeb' + '/#' + location.pathname);
+      };
+    
+      if (location.pathname !== '/personalWeb/') {
+        redirect(location);
+      }
+    </script>
+    
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
