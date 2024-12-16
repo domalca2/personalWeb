@@ -102,7 +102,74 @@ header{
 .navbar-nav img:hover {
   transform: scale(1.2); /* Agranda ligeramente en hover */
 }
+/*GESTIÓN DEL MENU MODAL*/
+.modal-container-head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  z-index: 200; /* Por encima del header */
+  padding-top: 60px;
+}
 
+.modal-head {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.close-btn-head {
+  position: absolute;
+  top: -10px;
+  right: -2px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #000;
+  /* background-color: #007bff; */
+}
+
+.modal-nav-head {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modal-nav-head li {
+  margin: 10px 0;
+}
+
+.modal-nav-head a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  display: block;
+}
+
+.modal-nav-head a:hover {
+  color: #0056b3;
+}
+
+.modal-close-head {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+/*fIN gest memú modal*/
 
 .btn-left {
   background-color: #007bff; /* Color del botón */

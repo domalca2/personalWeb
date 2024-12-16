@@ -1,0 +1,42 @@
+/* src/pages/contact.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+    margin-top: 15%;
+    /* background-color: yellow; */
+    /* min-height: 100vh; */
+  }
+  
+  .header {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 48px;
+    font-style: italic;
+    margin-bottom: 8%;
+    color: #2e8555;
+    /* background-color: blueviolet; */
+  }
+  
+  .cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8% 5%;
+    justify-content: center;
+    margin: 0 8%; 
+    /* background-color: #2e8555; */
+    min-height: 20vh;
+  }
+  
+  @media (max-width: 770px ) {
+    .cardsContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 5% 2%;
+    }
+    .cardsContainer > * {
+        margin-bottom: 6%;
+    }
+  }
