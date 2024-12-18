@@ -16,6 +16,7 @@ import laraLogo from '../../images/laravel.png';
 import reactNatLogo from '../../images/reactNative.png';
 import devopsLogo from '../../images/devops_cert.png';
 import terraLogo from '../../images/Terraform.png';
+// import my_resume from '../../../public/cv/'
 
 const About = () => {
   return (
@@ -71,7 +72,7 @@ const About = () => {
             </p>
                       
             <div className={styles['resume']}>
-              <a href="/cv/my-resume.pdf" target="_blank" rel="noopener noreferrer" className={styles["btn-cv"]}>
+              <a href={`${process.env.PUBLIC_URL}/cv/my_resume.pdf`} target="_blank" rel="noopener noreferrer" className={styles["btn-cv"]}>
               View Resume
             </a>
             </div>

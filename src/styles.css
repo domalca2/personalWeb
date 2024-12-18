@@ -200,37 +200,39 @@ header{
   width:90%;
   position:relative;
   color:rgba(255, 255, 255, 0.897);
-  top:20%;
+  top:0;
   /* bottom:0; */
   left:50%;
   transform: translate(-50%, -20% );
   /* background-color: green; */
-  line-height:48px;
-  margin-top: 20px;
+  line-height:58px;
+  margin-top: 0;
 }
 
 
 .console-underscore {
   display: inline-block; 
-  position: relative; 
-  top: 0; 
-  left: 20px; 
+  position: static; 
+  /* top: 0; 
+  left: 1px;  */
   font-size: inherit;
-  line-height: 1; 
-  vertical-align: middle;
+  line-height: 58px; 
+  vertical-align: bottom;
   color:  rgba(131, 65, 229, 0.633) ;
+  margin-left: 5px;
+  /* background-color: #29e8c8; */
 }
 
 #text {
-  font-family: 'Varela Round', sans-serif;
+  /* font-family: 'Varela Round', sans-serif;
   font-size: 48px;
   font-weight: 800;
-  text-align: center;
+  text-align: center; */
   background: linear-gradient(90deg, rgb(26, 0, 128), rgb(148, 244, 245), rgba(131, 65, 229, 0.633));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-left: 20px;
+  margin-left: 0;
 }
 
 .profile-picture img {
