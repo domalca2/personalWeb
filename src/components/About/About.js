@@ -33,10 +33,10 @@ const About = () => {
           <div className={styles["lead-with-icons"]}>
               <span className={styles["lead-text"]}>Full stack web developer</span>
               <div className={styles["icons-container"]}>
-                <a href="https://github.com/tuPerfil" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/domalca2" target="_blank" rel="noopener noreferrer">
                   <img src={logoGit} alt="GitHub logo" className={styles["icon"]} />
                 </a>
-                <a href="https://linkedin.com/in/tuPerfil" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/domingo-alonso-14a529342" target="_blank" rel="noopener noreferrer">
                   <img src={logoLindedin} alt="LinkedIn logo" className={styles["icon"]} />
                 </a>
               </div>

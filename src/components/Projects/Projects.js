@@ -57,13 +57,13 @@ const projects = [
     title: 'Hangman app-Play',
     image: hangman, // Asegúrate de tener esta imagen en la carpeta src/images
     techIcons: [php,soap,js,mvc,jquery,css,bootstrap  ],
-    githubLink: 'https://github.com/tuusuario/hangman-app',
+    githubLink: 'https://github.com/domalca2/hangman-app-play.git',
   },
   {
     title: 'Delivery app',
     image: delivery,
     techIcons: [php, apiRest,oauth2,gTask,mysql,mvc,bingMap ],
-    githubLink: 'https://github.com/tuusuario/delivery-app',
+    githubLink: 'https://github.com/domalca2/delivery-app.git',
   },
   {
     title: 'Flashy app',
