@@ -69,25 +69,25 @@ const projects = [
     title: 'Flashy app',
     image: flashy,
     techIcons: [php,bladeOne,bootstrap,js,jquery,composer,mvc ],
-    githubLink: 'https://github.com/tuusuario/menu-choose-app',
+    githubLink: 'https://github.com/domalca2/menu-choose-app',
   },
   {
     title: 'Library manager app',
     image: library,
     techIcons: [php,laravel,eloquent,vue,tailwind,apiRest],
-    githubLink: 'https://github.com/tuusuario/library-manager-app',
+    githubLink: 'https://github.com/domalca2/library-manager-app',
   },
   {
     title: 'Whish list app',
     image: whishlist,
     techIcons: [react,parcel,eslint,husky,prettier,bem],
-    githIcons: 'https://github.com/tuusuario/whish-list-app',
+    githIcons: 'https://github.com/domalca2/whish-list-app',
   },
   {
     title: 'Meditation app',
     image: zenenti,
     techIcons: [reactNative,figma,expo,android,prisma,sqlServer,azure],
-    githubLink: 'https://github.com/tuusuario/meditation-app',
+    githubLink: 'https://github.com/domalca2/meditation-app',
   }
 ];
 
