@@ -69,7 +69,7 @@ const projects = [
     title: 'Flashy app',
     image: flashy,
     techIcons: [php,bladeOne,bootstrap,js,jquery,composer,mvc ],
-    githubLink: 'https://github.com/domalca2/menu-choose-app',
+    githubLink: 'https://github.com/domalca2/flashy-app.git',
   },
   {
     title: 'Library manager app',
