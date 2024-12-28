@@ -46,7 +46,7 @@ const Contact = () => {
             content={item.title === 'Email' ? (
               <span>
                 {item.content.split(" ")[0]}{' '}
-                <a href="#" onClick={openEmail}>{item.content.split(" ")[1]}</a>
+                <a onClick={openEmail}>{item.content.split(" ")[1]}</a>
               </span>
             ) : item.content}
           />

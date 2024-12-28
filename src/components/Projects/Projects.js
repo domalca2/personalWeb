@@ -81,7 +81,7 @@ const projects = [
     title: 'Whish list app',
     image: whishlist,
     techIcons: [react,parcel,eslint,husky,prettier,bem],
-    gitHubLink: 'https://github.com/domalca2/whish-list-app.git',
+    githubLink: 'https://github.com/domalca2/whish-list-app.git',
   },
   {
     title: 'Meditation app',
