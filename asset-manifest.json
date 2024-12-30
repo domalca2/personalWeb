@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personalWeb/static/css/main.b2fcbdc7.css",
+    "main.css": "/personalWeb/static/css/main.5a70974e.css",
     "main.js": "/personalWeb/static/js/main.7511d8ba.js",
     "static/media/deli_combi.png": "/personalWeb/static/media/deli_combi.1acdea46acbe8338b418.png",
     "static/media/zenenti3.png": "/personalWeb/static/media/zenenti3.7a4c8ea4f9ab444d1f71.png",
@@ -23,11 +23,11 @@
     "static/media/Terraform.png": "/personalWeb/static/media/Terraform.420d6e84edc3a0b5fc1b.png",
     "static/media/javascript.png": "/personalWeb/static/media/javascript.70e6e96eeabe732298a6.png",
     "index.html": "/personalWeb/index.html",
-    "main.b2fcbdc7.css.map": "/personalWeb/static/css/main.b2fcbdc7.css.map",
+    "main.5a70974e.css.map": "/personalWeb/static/css/main.5a70974e.css.map",
     "main.7511d8ba.js.map": "/personalWeb/static/js/main.7511d8ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2fcbdc7.css",
+    "static/css/main.5a70974e.css",
     "static/js/main.7511d8ba.js"
   ]
 }
