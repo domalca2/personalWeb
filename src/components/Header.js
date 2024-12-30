@@ -5,6 +5,7 @@ import {ThemeContext} from '../contexts/ThemeContext';
 
 function Header() {
   const {toggleTheme} = useContext(ThemeContext);
+  console.log('toggleTheme:', toggleTheme);
   const [showModal, setShowModal] = useState(false);
 
   const toggleModalHead = () => {

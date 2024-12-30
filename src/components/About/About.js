@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import DynamicText from './DynamicText';
+import { ThemeContext } from '../../contexts/ThemeContext';
 import perfil_img from '../../images/ene_24_mod3.jpg';
 import styles from './about.module.css';
 import logoGit from '../../images/github.png';
@@ -19,8 +20,11 @@ import terraLogo from '../../images/Terraform.png';
 // import my_resume from '../../../public/cv/'
 
 const About = () => {
+  const {theme} = useContext(ThemeContext);
   return (
-    <div className={styles["about-container"]}>
+    <div className={`${styles["about-container"]} ${theme === 'dark'?
+      styles.dark : ''
+    }`}>
       {/* Contenedor para la imagen */}
       <div className={styles['header']}>
         <div className={styles["profile-picture"]}>

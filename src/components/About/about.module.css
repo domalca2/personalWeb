@@ -8,6 +8,12 @@
     margin-top: 5vh;
     margin-left: 2vh;
   }
+  .about-container p {
+    transition: color 0.3s ease;
+  }
+  .about-container .dark p {
+    color: #fff;
+  }
   
   .header,
   .medium,
@@ -185,6 +191,12 @@
     height: auto;
     margin-right: 0.5em;
     margin-bottom: 2vh;
+  }
+  .dark {
+    color: #fff;
+  }
+  .body.dark p{
+    color: #fff;
   }
   
   @media (max-width: 1300px ) {
