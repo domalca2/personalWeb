@@ -29,6 +29,9 @@ body.dark {
 body.dark .navbar-nav a{
   color: #fff;
 }
+body.dark .hamburger-menu span {
+  background-color: #fff;
+}
 #root-container {
   display: flex;
   flex-direction: column; /* Header, main y footer en columna */

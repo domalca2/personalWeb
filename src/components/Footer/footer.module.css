@@ -26,10 +26,14 @@
     flex-wrap: wrap;
   }
   
+  
   .footer-left {
     display: inline;
     font-size: 16px;
     margin: 2vh;
+  }
+  .footer-left.dark {
+    color: #fff;
   }
   
   .footer-right a {
