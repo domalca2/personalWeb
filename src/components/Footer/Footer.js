@@ -14,15 +14,14 @@ const Footer = () => {
         <div className={`${styles["footer-left"]} ${theme === 'dark' ? 
           styles.dark : ''
         }`}>
-          { console.log('tema aplicado en footer-left:', theme)}
           <p>Domingo Alonso</p>
         </div>
         <div className={styles["footer-right"]}>
         
-          <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/domalca2" target="_blank" rel="noopener noreferrer">
             <img src={githubLogo} alt="GitHub" />
           </a>
-          <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/domingo-alonso-14a529342" target="_blank" rel="noopener noreferrer">
             <img src={linkindLogo} alt="LinkedIn" />
           </a>
         

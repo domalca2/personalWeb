@@ -15,10 +15,10 @@ const contactItems = [
   { icon: <IoLocationSharp />, title: 'Address', content: 'Madrid, Spain' },
   { icon: <IoShareSocialSharp/>, title: 'Social Platforms', content: 
     <div>
-      <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/domalca2" target="_blank" rel="noopener noreferrer">
             <img src={gitHub} alt="GitHub" style={{ width: '28px', marginRight: '8%' }} />
           </a>
-       <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer">
+       <a href="https://linkedin.com/in/domingo-alonso-14a529342" target="_blank" rel="noopener noreferrer">
        <img src={linkedIn} alt="LinkedIn" style={{ width: '28px' }} />
          </a>
     </div> 
