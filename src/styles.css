@@ -181,17 +181,17 @@ header{
 /*fIN gest memú modal*/
 
 .btn-left {
-  background-color: #007bff; /* Color del botón */
+  background-color: transparent; 
   color: white;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 0;
+  /* font-size: 20px; */
   cursor: pointer;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .btn-left:hover {
-  background-color: #0056b3; /* Color cuando pasa el cursor */
+  background-color: none; 
 }
 
 

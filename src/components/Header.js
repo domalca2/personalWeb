@@ -17,7 +17,7 @@ function Header() {
     <header className="d-flex justify-content-between align-items-center fixed-top">
       <div className="btn-container">
         <button className="btn-left" onClick={toggleTheme}>
-            <FaLightbulb size={24} color="yellow" />
+            <FaLightbulb size={28} color="yellow" />
         </button>
       </div>
       <nav className="navbar">
@@ -72,8 +72,8 @@ function Header() {
           <li className="nav-item">
             <Link className={`nav-link ${isActive('/projects') ? 'active' : ''}`} 
             to="/projects">
-              Project
-            s</Link>
+              Projects
+            </Link>
           </li>
           <li className="nav-item">
             <Link className={`nav-link ${isActive('/contact') ? 'active' : ''}`}
