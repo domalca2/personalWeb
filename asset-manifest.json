@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/personalWeb/static/css/main.9b61f659.css",
+    "main.js": "/personalWeb/static/js/main.8f822b36.js",
+    "static/media/deli_combi.png": "/personalWeb/static/media/deli_combi.1acdea46acbe8338b418.png",
+    "static/media/zenenti3.png": "/personalWeb/static/media/zenenti3.7a4c8ea4f9ab444d1f71.png",
+    "static/media/flashy.png": "/personalWeb/static/media/flashy.5466cc1140ff2aa98e5f.png",
+    "static/media/ene_24_mod3.jpg": "/personalWeb/static/media/ene_24_mod3.9758540630fc26e4d702.jpg",
+    "static/media/reactjs.png": "/personalWeb/static/media/reactjs.cd241965ff5ab642596c.png",
+    "static/media/wishlist.png": "/personalWeb/static/media/wishlist.8e5b3acc76ebdf9fc293.png",
+    "static/media/hangman.png": "/personalWeb/static/media/hangman.7b47618eb2123c2f277d.png",
+    "static/media/devops_cert.png": "/personalWeb/static/media/devops_cert.78191e24ebad9fce35d3.png",
+    "static/media/reactNative.png": "/personalWeb/static/media/reactNative.49339ca6f3fff1c156fe.png",
+    "static/media/mysql.png": "/personalWeb/static/media/mysql.cae96d5622ee7c4b001d.png",
+    "static/media/html5.png": "/personalWeb/static/media/html5.ed9b754f3eb585bfd9cd.png",
+    "static/media/php.png": "/personalWeb/static/media/php.79ffea74dd7a0816dca9.png",
+    "static/media/laravel.png": "/personalWeb/static/media/laravel.05f11a788a2f798cc892.png",
+    "static/media/libraryMng.png": "/personalWeb/static/media/libraryMng.f9ff1e605db7fb41a686.png",
+    "static/media/java.png": "/personalWeb/static/media/java.780e4ce7a5fdadc75df4.png",
+    "static/media/css3.png": "/personalWeb/static/media/css3.5fa2d309d1a66a2e7ab7.png",
+    "static/media/soap.png": "/personalWeb/static/media/soap.dad7d54776b7e1e9449e.png",
+    "static/media/bootstrap.png": "/personalWeb/static/media/bootstrap.5295d6279fb8ad9f47a7.png",
+    "static/media/Terraform.png": "/personalWeb/static/media/Terraform.420d6e84edc3a0b5fc1b.png",
+    "static/media/javascript.png": "/personalWeb/static/media/javascript.70e6e96eeabe732298a6.png",
+    "index.html": "/personalWeb/index.html",
+    "main.9b61f659.css.map": "/personalWeb/static/css/main.9b61f659.css.map",
+    "main.8f822b36.js.map": "/personalWeb/static/js/main.8f822b36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b61f659.css",
+    "static/js/main.8f822b36.js"
+  ]
+}
