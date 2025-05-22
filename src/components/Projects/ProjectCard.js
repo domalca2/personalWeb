@@ -1,11 +1,31 @@
 import React from 'react';
 import styles from './projectCard.module.css';
 import gitHub from '../../images/github.png';
+import playIcon from '../../images/play.png';
 
-const ProjectCard = ({ title, image, techIcons, githubLink}) => {
+const ProjectCard = ({ title, image, techIcons, githubLink, videoLink}) => {
+
+  const imageElement = (
+    <div className={styles.imageWrapper}>
+      <img src={image} alt={title} className={styles.projectImage} />
+      {videoLink && (
+        <img src={playIcon} alt="play" className={styles.playIcon} />
+      )}
+    </div>
+  );
+
   return (
     <div className={styles.card}>
-      <img src={image} alt={title} className={styles.projectImage} />
+      
+      {videoLink ? (
+        <a className={styles.projectImage} href={videoLink} target="_blank" rel="noopener noreferrer">
+          {imageElement}
+        </a>
+      ) : (
+        imageElement
+      )}
+
+
       <div className={styles.cardContent}>
         <h3 className={styles.projectTitle}>{title}</h3>
         
