@@ -58,6 +58,7 @@ const projects = [
     image: hangman, // Asegúrate de tener esta imagen en la carpeta src/images
     techIcons: [php,soap,js,mvc,jquery,css,bootstrap  ],
     githubLink: 'https://github.com/domalca2/hangman-app-play.git',
+    videoLink: 'https://youtu.be/pyfdIDs5mPc',
   },
   {
     title: 'Delivery app',
@@ -103,6 +104,7 @@ const Projects = () => {
             image={project.image}
             techIcons={project.techIcons}
             githubLink={project.githubLink}
+            videoLink={project.videoLink}
           />
         ))}
       </div>
